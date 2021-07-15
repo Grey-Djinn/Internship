@@ -1,0 +1,559 @@
+Cprofile output of File Comparer helper library which calls renumberer function on first run using worst case scenario of
+CAL1.txt and CA2.txt which equals false. This run requires the renumberer function
+
+
+False - The two files are the same
+
+
+         347898 function calls (347854 primitive calls) in 0.088 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+      5/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+       49    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:650(_load_unlocked)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:986(_find_and_load)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1004(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(get_filename)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1034(get_data)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1075(path_stats)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_cache_bytecode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1085(set_data)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:121(_path_join)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:123(<listcomp>)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:127(_path_split)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:129(<genexpr>)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1330(_path_importer_cache)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:135(_path_stat)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1367(_get_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(find_spec)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1493(_get_spec)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1498(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:154(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isdir)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:175(_path_isabs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_write_atomic)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:354(cache_from_source)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:484(_get_cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:496(_calc_mode)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:516(_check_name_wrapper)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:553(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:586(_validate_timestamp_pyc)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:638(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:651(_code_to_timestamp_pyc)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_relax_case)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:689(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:74(_pack_uint32)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:839(create_module)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:842(exec_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:906(source_to_code)
+        4    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:914(get_code)
+        1    0.000    0.000    0.001    0.001 FileComparer.py:2(<module>)
+        1    0.004    0.004    0.004    0.004 FileComparer.py:37(<listcomp>)
+        1    0.004    0.004    0.004    0.004 FileComparer.py:44(<listcomp>)
+        1    0.000    0.000    0.087    0.087 FileComparer.py:5(fileComparer)
+       20    0.000    0.000    0.000    0.000 _bootlocale.py:33(getpreferredencoding)
+        9    0.000    0.000    0.000    0.000 codecs.py:186(__init__)
+       11    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+       11    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+       56    0.000    0.000    0.000    0.000 codecs.py:319(decode)
+        6    0.000    0.000    0.000    0.000 enum.py:313(__call__)
+        6    0.000    0.000    0.000    0.000 enum.py:631(__new__)
+        3    0.000    0.000    0.000    0.000 enum.py:938(__and__)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:38(_compile_pattern)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:48(filter)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:74(translate)
+        1    0.000    0.000    0.000    0.000 functools.py:34(update_wrapper)
+        1    0.000    0.000    0.000    0.000 functools.py:487(lru_cache)
+        1    0.000    0.000    0.000    0.000 functools.py:525(decorating_function)
+        2    0.000    0.000    0.000    0.000 genericpath.py:16(exists)
+        1    0.000    0.000    0.000    0.000 genericpath.py:39(isdir)
+        1    0.000    0.000    0.000    0.000 glob.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 glob.py:10(glob)
+       19    0.000    0.000    0.000    0.000 glob.py:116(_iterdir)
+        1    0.000    0.000    0.000    0.000 glob.py:147(has_magic)
+       19    0.000    0.000    0.000    0.000 glob.py:154(_ishidden)
+        1    0.000    0.000    0.000    0.000 glob.py:23(iglob)
+       10    0.000    0.000    0.000    0.000 glob.py:41(_iglob)
+        1    0.000    0.000    0.000    0.000 glob.py:81(_glob1)
+       19    0.000    0.000    0.000    0.000 glob.py:84(<genexpr>)
+        1    0.000    0.000    0.088    0.088 mySolutionTest.py:5(<module>)
+        1    0.000    0.000    0.087    0.087 mySolutionTest.py:7(main)
+        1    0.000    0.000    0.000    0.000 os.py:198(makedirs)
+        2    0.000    0.000    0.000    0.000 posixpath.py:100(split)
+        2    0.000    0.000    0.000    0.000 posixpath.py:41(_get_sep)
+        1    0.000    0.000    0.000    0.000 posixpath.py:52(normcase)
+        3    0.000    0.000    0.000    0.000 re.py:250(compile)
+        4    0.000    0.000    0.000    0.000 re.py:270(escape)
+        3    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.001    0.001 renumberer.py:2(<module>)
+        1    0.056    0.056    0.077    0.077 renumberer.py:5(renumberer)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:411(_mk_bitmap)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:413(<listcomp>)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        9    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+      6/3    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+        9    0.000    0.000    0.000    0.000 sre_compile.py:65(_combine_flags)
+      7/3    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        7    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        9    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+       28    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+       11    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      9/5    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+       29    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+       21    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+       22    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:432(_uniq)
+      6/3    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+      6/3    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+       10    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:861(_parse_flags)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+       56    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       20    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+       20    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       20    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+      5/1    0.000    0.000    0.088    0.088 {built-in method builtins.exec}
+       31    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       77    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+   104/97    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       19    0.001    0.000    0.001    0.000 {built-in method builtins.min}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       11    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        5    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+       20    0.001    0.000    0.001    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.dumps}
+        3    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       19    0.000    0.000    0.000    0.000 {built-in method posix.chdir}
+       15    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        4    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.mkdir}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.open}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.replace}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.scandir}
+       21    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+   124690    0.006    0.000    0.006    0.000 {method 'append' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+       36    0.000    0.000    0.000    0.000 {method 'clear' of 'list' objects}
+        9    0.001    0.000    0.001    0.000 {method 'close' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        4    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       20    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+    62115    0.004    0.000    0.004    0.000 {method 'get' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       52    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       18    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+       11    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       97    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+    97213    0.006    0.000    0.006    0.000 {method 'strip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        4    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
+    62103    0.004    0.000    0.004    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+
+
+    We next test the performance after the initial run when the renumberer function no longer needs to be called:
+
+    36381 function calls (36348 primitive calls) in 0.011 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+       48    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:650(_load_unlocked)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:986(_find_and_load)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1004(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(get_filename)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1034(get_data)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1075(path_stats)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:121(_path_join)
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:123(<listcomp>)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:127(_path_split)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:129(<genexpr>)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1330(_path_importer_cache)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:135(_path_stat)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1367(_get_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1493(_get_spec)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1498(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:154(_path_isfile)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:175(_path_isabs)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:354(cache_from_source)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:484(_get_cached)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:516(_check_name_wrapper)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:553(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:586(_validate_timestamp_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:638(_compile_bytecode)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_relax_case)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:689(spec_from_file_location)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:839(create_module)
+      4/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:842(exec_module)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:914(get_code)
+        1    0.000    0.000    0.001    0.001 FileComparer.py:2(<module>)
+        1    0.003    0.003    0.004    0.004 FileComparer.py:37(<listcomp>)
+        1    0.004    0.004    0.005    0.005 FileComparer.py:44(<listcomp>)
+        1    0.000    0.000    0.010    0.010 FileComparer.py:5(fileComparer)
+        2    0.000    0.000    0.000    0.000 _bootlocale.py:33(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+       14    0.000    0.000    0.000    0.000 codecs.py:319(decode)
+        4    0.000    0.000    0.000    0.000 enum.py:313(__call__)
+        4    0.000    0.000    0.000    0.000 enum.py:631(__new__)
+        2    0.000    0.000    0.000    0.000 enum.py:938(__and__)
+        1    0.000    0.000    0.000    0.000 fnmatch.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 functools.py:34(update_wrapper)
+        1    0.000    0.000    0.000    0.000 functools.py:487(lru_cache)
+        1    0.000    0.000    0.000    0.000 functools.py:525(decorating_function)
+        1    0.000    0.000    0.000    0.000 genericpath.py:39(isdir)
+        1    0.000    0.000    0.000    0.000 glob.py:1(<module>)
+        1    0.000    0.000    0.011    0.011 mySolutionTest.py:5(<module>)
+        1    0.000    0.000    0.010    0.010 mySolutionTest.py:7(main)
+        2    0.000    0.000    0.000    0.000 re.py:250(compile)
+        2    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.001    0.001 renumberer.py:2(<module>)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:411(_mk_bitmap)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:413(<listcomp>)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+      4/2    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:65(_combine_flags)
+      4/2    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      6/4    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+       16    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+       16    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:432(_uniq)
+      4/2    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+      4/2    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+       14    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       20    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+       20    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        2    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISDIR}
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      5/1    0.000    0.000    0.011    0.011 {built-in method builtins.exec}
+       31    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       41    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+    80/76    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       12    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        4    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        2    0.000    0.000    0.000    0.000 {built-in method io.open}
+        4    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.chdir}
+       12    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        4    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+       17    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       60    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        4    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       20    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        8    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       52    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        8    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       96    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+    35110    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+
+        These tests were then run on the remaining files to determine total function calls and time for our test cases. Test output not
+        shown.
+
+        1. 347898 function calls (347854 primitive calls) in 0.088 seconds (CA1.txt, CA2.txt)
+ 
+        2. 36415 function calls (36382 primitive calls) in 0.011 seconds (CA1.txt, CA3.txt)
+
+        3. 36415 function calls (36382 primitive calls) in 0.011 seconds (CA2.txt, CA3.txt)
+
+        4. 5733 function calls (5700 primitive calls) in 0.003 seconds (AZ2.txt, AZ3.txt)
+
+        5. 5733 function calls (5700 primitive calls) in 0.003 seconds (AZ1.txt, AZ2.txt)
+
+        6. 5733 function calls (5700 primitive calls) in 0.003 seconds (AZ1.txt, AZ3.txt)
+
+        7. 3129 function calls (3096 primitive calls) in 0.002 seconds (ID2.txt, ID3.txt)
+
+        8. 3129 function calls (3096 primitive calls) in 0.002 seconds (ID1.txt, ID2.txt)
+
+        9. 3129 function calls (3096 primitive calls) in 0.002 seconds (ID1.txt, ID3.txt)
+
+        
+        Statistical Analysis on the above gives us a mean of 49,701.556 function calls (Std. dev 112683.68) with
+        a mean run time of 13.889 milliseconds (Std. dev 28.037673)
+
+        Granted hours were not spent attempting to optimize this code, but as it is built off the brute force concept
+        of the solution, it seems doubtful enough efficiency could be gained to warrant it's use above the AreDistinct.py 
+        code which is tested below: (Testing results displayed only for worst case scenario of CA1.txt, CA2.txt)
+
+        
+        35386 function calls (35385 primitive calls) in 0.013 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:650(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:986(_find_and_load)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1004(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(get_filename)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1034(get_data)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1075(path_stats)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_cache_bytecode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1085(set_data)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:121(_path_join)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:123(<listcomp>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:127(_path_split)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:129(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1330(_path_importer_cache)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:135(_path_stat)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1367(_get_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1493(_get_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1498(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:154(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isdir)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:175(_path_isabs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_write_atomic)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:354(cache_from_source)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:484(_get_cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:496(_calc_mode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:516(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:553(_classify_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:586(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:651(_code_to_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_relax_case)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:689(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:74(_pack_uint32)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:839(create_module)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:842(exec_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:906(source_to_code)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:914(get_code)
+        1    0.000    0.000    0.000    0.000 AreDistinct.py:1(<module>)
+        1    0.004    0.004    0.005    0.005 AreDistinct.py:15(<listcomp>)
+        1    0.004    0.004    0.005    0.005 AreDistinct.py:23(<listcomp>)
+        1    0.000    0.000    0.010    0.010 AreDistinct.py:3(getFiles)
+        1    0.002    0.002    0.012    0.012 AreDistinct.py:41(distinct)
+        1    0.000    0.000    0.012    0.012 AreDistinct.py:71(results)
+        2    0.000    0.000    0.000    0.000 _bootlocale.py:33(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+       20    0.000    0.000    0.000    0.000 codecs.py:319(decode)
+        2    0.000    0.000    0.000    0.000 genericpath.py:16(exists)
+        1    0.000    0.000    0.013    0.013 mySolutionTest.py:2(<module>)
+        1    0.000    0.000    0.012    0.012 mySolutionTest.py:7(main)
+       20    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+      2/1    0.000    0.000    0.013    0.013 {built-in method builtins.exec}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        2    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.dumps}
+        3    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.open}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.replace}
+        7    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        8    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        3    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+    35110    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
+
+        Again we test on each of our file comparisons:
+
+        1. 35386 function calls (35385 primitive calls) in 0.013 seconds (CA1.txt, CA2.txt)
+
+        2. 35386 function calls (35385 primitive calls) in 0.011 seconds (CA1.txt, CA3.txt)
+        
+        3. 35386 function calls (35385 primitive calls) in 0.011 seconds (CA2.txt, CA3.txt)
+
+        4. 4692 function calls (4691 primitive calls) in 0.002 seconds (AZ2.txt, AZ3.txt)
+
+        5. 4692 function calls (4691 primitive calls) in 0.002 seconds (AZ1.txt, AZ2.txt)
+
+        6. 4692 function calls (4691 primitive calls) in 0.003 seconds (AZ1.txt, AZ3.txt)
+
+        7. 2088 function calls (2087 primitive calls) in 0.002 seconds (ID2.txt, ID3.txt)
+
+        8. 2088 function calls (2087 primitive calls) in 0.002 seconds (ID1.txt, ID2.txt)
+
+        9. 2088 function calls (2087 primitive calls) in 0.002 seconds (ID1.txt, ID3.txt)
+
+        Statistical Analysis on the above gives us a mean of 14,055.333 function calls (Std. dev 16037.687) with
+        a mean run time of 5.333 milliseconds (Std. dev 4.796)
+
+
+
+        
